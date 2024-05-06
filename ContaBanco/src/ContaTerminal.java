@@ -15,7 +15,7 @@ public class ContaTerminal {
 
         System.out.println("Digite o seu nome");
         String nomeCliente = scanner.next();
-        nomeCliente = nomeCliente + scanner.nextLine();
+        nomeCliente = nomeCliente.concat(scanner.nextLine());
         System.out.println("Digite o saldo");
         double saldo = scanner.nextDouble();
 
