@@ -13,7 +13,7 @@ public class ContaTerminal {
         scanner.nextLine();
         String agencia = scanner.next();        
 
-        System.out.println("Digite o seu nome");
+        System.out.println("Digite o seu nome e sobrenome");
         String nomeCliente = scanner.next();
         nomeCliente = nomeCliente.concat(scanner.nextLine());
         System.out.println("Digite o saldo");
